@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Random_Easter_Egg" />
+        <module name="RandomEasterEggDesign" />
       </profile>
     </annotationProcessing>
   </component>

@@ -1,3 +1,4 @@
+import java.util.Locale;
 import java.util.Random;
 
 public class Randomizer {
@@ -13,7 +14,8 @@ public class Randomizer {
         String patternColor = randomPatternColor();
         String motif = randomMotif();
 
-        while(base.equals(patternColor)){
+        while(patternColor.equals(base.toLowerCase(Locale.ROOT))){
+            //System.out.println("I did it i fixed wrong color");
             patternColor = randomPatternColor();
         }
 
